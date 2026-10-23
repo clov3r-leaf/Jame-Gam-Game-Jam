@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://br5vawjfegq14"]
+
+[ext_resource type="Texture2D" uid="uid://b7hiipbnl6r8v" path="res://assets/icon.svg" id="1_s3esy"]
+
+[node name="MainGame" type="Node2D" unique_id=1433046858]
+
+[node name="Control" type="Control" parent="." unique_id=147993209]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=1589510281]
+layout_mode = 0
+offset_top = 486.0
+offset_right = 750.0
+offset_bottom = 794.0
+
+[node name="Label" type="Label" parent="Control/VBoxContainer" unique_id=973467728]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+text = "Feed your pet a good meal!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GridContainer" type="GridContainer" parent="Control/VBoxContainer" unique_id=2068681216]
+custom_minimum_size = Vector2(750, 200)
+layout_mode = 2
+theme_override_constants/h_separation = 24
+columns = 2
+
+[node name="Option1" type="Button" parent="Control/VBoxContainer/GridContainer" unique_id=6777758]
+custom_minimum_size = Vector2(360, 100)
+layout_mode = 2
+text = "Sausage"
+
+[node name="Option2" type="Button" parent="Control/VBoxContainer/GridContainer" unique_id=165392436]
+custom_minimum_size = Vector2(360, 100)
+layout_mode = 2
+text = "Bowling Ball"
+
+[node name="Option3" type="Button" parent="Control/VBoxContainer/GridContainer" unique_id=1325816604]
+custom_minimum_size = Vector2(360, 100)
+layout_mode = 2
+text = "One Whole Stingray"
+
+[node name="Option4" type="Button" parent="Control/VBoxContainer/GridContainer" unique_id=215605528]
+custom_minimum_size = Vector2(360, 100)
+layout_mode = 2
+text = "Doritos (for breakfast)"
+
+[node name="PetExampleSprite" type="Sprite2D" parent="." unique_id=1214285515]
+position = Vector2(364, 303)
+scale = Vector2(2, 2)
+texture = ExtResource("1_s3esy")

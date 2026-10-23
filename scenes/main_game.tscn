@@ -23,7 +23,8 @@ offset_top = 486.0
 offset_right = 750.0
 offset_bottom = 794.0
 
-[node name="Label" type="Label" parent="Control/VBoxContainer" unique_id=973467728]
+[node name="QuestionLabel" type="Label" parent="Control/VBoxContainer" unique_id=973467728]
+unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 text = "Feed your pet a good meal!"
@@ -57,7 +58,7 @@ custom_minimum_size = Vector2(360, 100)
 layout_mode = 2
 text = "Doritos (for breakfast)"
 
-[node name="PetExampleSprite" type="Sprite2D" parent="." unique_id=1214285515]
+[node name="PetSprite" type="Sprite2D" parent="." unique_id=1214285515]
 position = Vector2(364, 303)
 scale = Vector2(2, 2)
 texture = ExtResource("1_s3esy")
